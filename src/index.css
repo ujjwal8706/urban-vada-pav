@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+/* ========================================= */
+/* GLOBAL */
+/* ========================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Poppins", sans-serif;
+
+  background:
+    radial-gradient(circle at top, #18181b 0%, #0f0f10 35%, #050505 70%, #000000 100%);
+
+  color: white;
+
+  overflow-x: hidden;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========================================= */
+/* TEXT SELECTION */
+/* ========================================= */
+
+::selection {
+  background: #facc15;
+  color: #000;
+}
+
+/* ========================================= */
+/* SCROLLBAR */
+/* ========================================= */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #facc15;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fde047;
+}
+
+/* ========================================= */
+/* IMAGES */
+/* ========================================= */
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ========================================= */
+/* BUTTONS */
+/* ========================================= */
+
+button {
+  cursor: pointer;
+}
+
+/* ========================================= */
+/* LINKS */
+/* ========================================= */
+
+a {
+  transition: all .3s ease;
+}
+
+/* ========================================= */
+/* PREMIUM CARD */
+/* ========================================= */
+
+.card-hover {
+  transition: all .35s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+
+  border-color: rgb(250 204 21);
+
+  box-shadow:
+    0 0 40px rgba(250,204,21,.08),
+    0 15px 40px rgba(0,0,0,.45);
+}
+
+/* ========================================= */
+/* GOLDEN DIVIDER */
+/* ========================================= */
+
+.gold-line {
+  width: 90px;
+  height: 4px;
+
+  border-radius: 999px;
+
+  background:
+    linear-gradient(
+      to right,
+      #facc15,
+      #fde047,
+      #facc15
+    );
+}
+
+/* ========================================= */
+/* GLASS EFFECT */
+/* ========================================= */
+
+.glass {
+  background: rgba(24,24,27,.55);
+
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255,255,255,.08);
+}
+
+/* ========================================= */
+/* SECTION SPACING */
+/* ========================================= */
+
+section {
+  position: relative;
+}
+
+/* ========================================= */
+/* INPUTS */
+/* ========================================= */
+
+input,
+textarea,
+select {
+  outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #facc15;
+}
+
+/* ========================================= */
+/* SMOOTH ANIMATION */
+/* ========================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+/* ========================================= */
+/* OPTIONAL GLOW */
+/* ========================================= */
+
+.yellow-glow {
+  box-shadow: 0 0 50px rgba(250,204,21,.15);
+}

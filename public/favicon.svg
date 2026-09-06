@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="uvpGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="40%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+  </defs>
+  <!-- Background Pill/Circle -->
+  <circle cx="32" cy="32" r="30" fill="#09090b" stroke="#facc15" stroke-width="2.5" />
+  
+  <!-- Top Bun Arch -->
+  <path d="M18 28 C18 18.5, 46 18.5, 46 28 Z" fill="url(#uvpGold)" />
+  
+  <!-- Inner Savory Patty / Vada -->
+  <rect x="15" y="31" width="34" height="6" rx="3" fill="#facc15" />
+  
+  <!-- Bottom Bun -->
+  <path d="M19 40 C19 45.5, 45 45.5, 45 40 Z" fill="url(#uvpGold)" />
+  
+  <!-- Golden Sesame Dots -->
+  <circle cx="28" cy="24" r="1" fill="#09090b" opacity="0.75" />
+  <circle cx="34" cy="23" r="1" fill="#09090b" opacity="0.75" />
+  <circle cx="38" cy="25" r="1" fill="#09090b" opacity="0.75" />
+</svg>
